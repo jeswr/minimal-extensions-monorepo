@@ -15,7 +15,7 @@ I want to be able to do the following after freshly cloning the repo:
 
 ## Desired solution
 
-I want a way of having the `test.myauthprovider` extension temporarily loaded into the window  for `test.myauthconsumer`. 
+I want a way of having the `test.myauthprovider` extension temporarily loaded into the window  where I am debugging `test.myauthconsumer`. 
 
 ## Attempted Solutions
 
