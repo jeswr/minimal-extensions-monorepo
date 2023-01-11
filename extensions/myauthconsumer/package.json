@@ -1,0 +1,25 @@
+{
+  "name": "myauthconsumer",
+  "displayName": "myAuthConsumer",
+  "publisher": "test",
+  "version": "0.0.1",
+  "extensionDependencies": [
+    "test.myauthprovider"
+  ],
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:myAuthConsumer.helloWorld"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "myAuthConsumer.helloWorld",
+      "title": "Hello World"
+    }]
+  }
+}
